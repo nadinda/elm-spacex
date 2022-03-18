@@ -1,0 +1,16 @@
+{
+  "name": "elm-spacex",
+  "version": "1.0.0",
+  "description": "Elm App which consumes SpaceX graphql",
+  "main": "index.js",
+  "devDependencies": {
+    "@parcel/transformer-elm": "2.3.2",
+    "elm": "^0.19.1-5",
+    "parcel": "^2.3.2"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "Nadinda Rachmat <nadinda@nadinda.dev>",
+  "license": "ISC"
+}
