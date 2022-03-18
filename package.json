@@ -2,7 +2,6 @@
   "name": "elm-spacex",
   "version": "1.0.0",
   "description": "Elm App which consumes SpaceX graphql",
-  "main": "index.js",
   "devDependencies": {
     "@dillonkearns/elm-graphql": "^4.2.4",
     "@parcel/transformer-elm": "2.3.2",
@@ -11,6 +10,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "api": "elm-graphql https://api.spacex.land/graphql/ --base SpaceX"
   },
   "author": "Nadinda Rachmat <nadinda@nadinda.dev>",
